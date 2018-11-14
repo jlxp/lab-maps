@@ -6,4 +6,8 @@
     android:name="com.google.android.gms.maps.SupportMapFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    map:uiZoomControls="true"
+    map:mapType="satellite"
+    map:cameraTargetLat="47.655"
+    map:cameraTargetLng="-122.3078"
     tools:context=".MapsActivity" />
